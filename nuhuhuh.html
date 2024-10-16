@@ -1,0 +1,220 @@
+<html lang="en">
+
+<script>
+window.onload = function() {
+    var titles = ["wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "who are you?", "i hate you.", "i love you."];
+    var random = Math.floor(Math.random() * titles.length);
+    var titleElement = document.getElementById('title')
+    titleElement.innerHTML = titles[random];
+}
+</script>
+
+<head>
+<link rel="icon" type="image/x-icon" href="yuh.ico">
+<meta charset="UTF-8"
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title id="title"></title>
+<link href='https://fonts.googleapis.com/css?family=Inter:300,400,500,700,800,900,1000' rel='stylesheet'>
+	
+	
+<!-- Style sheet -->
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<style>
+body{
+	overflow: hidden;
+	user-select: none;
+	background: url('topography.png') repeat, #1a1a1a;
+}
+
+
+#wicked{
+	padding-bottom: 10px;
+	position:relative;
+	display: inline;
+	font-weight: 1000;
+	font-size: 50px;
+	background: linear-gradient(#ff99ce, #7136e0);
+	background-size: 100% 125%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: default;
+}
+
+#wicked::after{
+    content: "";
+    width: 0%;
+    height: 2%;
+	background: #9b53cb;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+	animation: .5s ease 1.65s underline;
+	animation-fill-mode: forwards;
+	transition: background 0.5s;
+}
+
+#wicked:hover::after{
+	background: #944dc4;
+	transition: background 0.5s;
+}
+
+.wickedbox{
+    position: absolute;
+	height: fit-content;
+	width: fit-content;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	top: 0;
+	right: 0;
+	animation: 1.5s ease 0s movet;
+}
+
+@keyframes movet {
+    0%{
+	top: 1500%;
+	}
+	90%{
+	top: -10%;
+	}
+	100%{
+	top: 0%;
+	}
+}
+@keyframes underline {
+    0%{
+	width: 0%;
+	}
+	100%{
+	width: 100%;
+	}
+}
+
+/* width media changes */ 
+@media (max-width: 280px) {
+  	#wicked{
+	font-size: 50px;
+	}
+	.nuhuh{
+		width:75px;
+	}
+}
+
+@media (min-width: 281px) {
+  	#wicked{
+	font-size: 75px;
+	}
+	.nuhuh{
+		width: 150px;
+	}
+}
+
+@media (min-width: 376px) {
+  	#wicked{
+	font-size: 75px;
+	}
+	.nuhuh{
+		width: 150px;
+	}
+}
+
+@media (min-width: 399px) {
+  	#wicked{
+	font-size: 80px;
+	}
+	.nuhuh{
+		width: 175px;
+	}
+}
+
+@media (min-width: 400px) {
+  	#wicked{
+	font-size: 90px;
+	}
+	.nuhuh{
+		width: 200px;
+	}
+}
+@media (min-width: 768px) {
+	#wicked{
+	font-size: 1000%;
+	}
+	.nuhuh{
+		width: 350px;
+	}
+}
+
+@media (min-width:801px)  {
+	#wicked{
+	font-size: 1000%;
+	}
+	.nuhuh{
+		width: 350px;
+	}
+}
+
+@media (min-width: 1025px) {
+	#wicked{
+	font-size: 1500%;
+	}
+	.nuhuh{
+		width: 400px;	
+	}
+}
+
+@media (min-width: 1200px) {
+	#wicked{
+	font-size: 1500%;
+	}
+	.nuhuh{
+		width: 400px;
+	}
+}
+
+@media (min-width: 1201px) {
+	#wicked{
+	font-size: 1500%;
+	}
+	.nuhuh{
+		width: 400px;
+	}
+}
+
+@media (min-width: 2560px) {
+	#wicked{
+	font-size: 1500%;
+	}
+		.nuhuh{
+		width: 400px;
+	}
+}
+
+.centeredbgb{
+	margin-left: 0.5em;
+	position: relative;
+	display: inline-block;
+	width:auto;
+	bottom: -webkit-calc(-70%);
+	bottom:calc(-70%);
+}
+	
+.thisistestbox{
+	background-color: #FBD603;
+	width: 100%;
+}
+	
+</style>
+<body>
+<div class="wickedbox">
+	<p ondblclick="redirectToSecondaryLink()" id="wicked">NUH UH UH <img src="nuhuhuh.gif" alt="NuhUhUh" class="nuhuh"> </p>
+	
+
+</div>
+</body>
+
+</html>

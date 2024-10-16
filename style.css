@@ -1,0 +1,7 @@
+body {
+    font-family: 'Inter';
+	margin: 0;
+	background: url('topography.png') repeat, #1a1a1a;
+	user-select: none;
+	text-decoration: none; 
+}

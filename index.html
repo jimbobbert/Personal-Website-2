@@ -1,0 +1,284 @@
+<html lang="en">
+
+<script>
+window.onload = function() {
+    var titles = ["wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "who are you?", "i hate you.", "i love you."];
+    var random = Math.floor(Math.random() * titles.length);
+    var titleElement = document.getElementById('title')
+    titleElement.innerHTML = titles[random];
+}
+</script>
+	
+<script src="https://cdn.jsdelivr.net/npm/console-ban@5.0.0/dist/console-ban.min.js"></script>
+  <script>
+    // default options
+    ConsoleBan.init()
+    // custom options
+    ConsoleBan.init({
+      redirect: 'nuhuhuh'
+    })
+  </script>
+
+<head>
+<link rel="icon" type="image/x-icon" href="yuh.ico">
+<meta charset="UTF-8"
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title id="title"></title>
+<link href='https://fonts.googleapis.com/css?family=Inter:300,400,500,700,800,900,1000' rel='stylesheet'>
+
+	
+<!-- Style sheet -->
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<style>
+body{
+	overflow: hidden;
+	user-select: none;
+	background: url('topography.png') repeat, #1a1a1a;
+}
+
+
+#wicked{
+	padding-bottom: 10px;
+	position:relative;
+	display: inline;
+	font-weight: 1000;
+	font-size: 200px;
+	background: linear-gradient(#ff99ce, #7136e0);
+	background-size: 100% 125%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: default;
+}
+
+#wicked::after{
+    content: "";
+    width: 0%;
+    height: 2%;
+	background: #9b53cb;
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+	animation: .5s ease 1.65s underline;
+	animation-fill-mode: forwards;
+	transition: background 0.5s;
+}
+
+#wicked:hover::after{
+	background: #944dc4;
+	transition: background 0.5s;
+}
+
+.wickedbox{
+    position: absolute;
+	height: fit-content;
+	width: fit-content;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	top: 0;
+	right: 0;
+	animation: 1.5s ease 0s movet;
+}
+
+.socialsbox {
+	position: absolute;
+	height: 25%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.socialsimg {
+	height: 25%;
+	opacity: 25%;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+.centeredbgb:hover .socialsimg{
+	filter: invert(76%) sepia(93%) saturate(740%) hue-rotate(285deg) brightness(101%) contrast(104%);
+	transition: 1s;
+	opacity: 65%;
+	transition-delay: 0.1s;
+}
+
+.centeredbgb:hover .SocialTexts{
+	font-weight: 900;
+	font-size: 150%;
+	transition: 1s;
+	opacity: 100%;
+	transition-delay: 0.1s;
+	transition-timing-function: cubic-bezier(.04,.64,.3,.94)
+}
+
+.centeredbgb{
+	margin-left: 0.5em;
+	position: relative;
+	display: inline-block;
+	width:auto;
+	bottom: -webkit-calc(-70%);
+	bottom:calc(-70%);
+}
+.SocialTexts{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -115%);
+	font-size: 75%;
+	opacity: 25%;
+	color: white;
+	font-weight: 500;
+}
+	
+	
+	
+@keyframes movet {
+    0%{
+	top: 1500%;
+	}
+	90%{
+	top: -10%;
+	}
+	100%{
+	top: 0%;
+	}
+}
+@keyframes underline {
+    0%{
+	width: 0%;
+	}
+	100%{
+	width: 100%;
+	}
+}
+
+/* width media changes */ 
+@media (max-width: 280px) {
+  	#wicked{
+	font-size: 50px;
+	}
+}
+
+@media (min-width: 281px) {
+  	#wicked{
+	font-size: 75px;
+	}
+}
+
+@media (min-width: 376px) {
+  	#wicked{
+	font-size: 75px;
+	}
+}
+
+@media (min-width: 399px) {
+  	#wicked{
+	font-size: 80px;
+	}
+}
+
+@media (min-width: 400px) {
+  	#wicked{
+	font-size: 90px;
+	}
+}
+@media (min-width: 768px) {
+	#wicked{
+	font-size: 1000%;
+	}
+}
+
+@media (min-width:801px)  {
+	#wicked{
+	font-size: 1000%;
+	}
+}
+
+@media (min-width: 1025px) {
+	#wicked{
+	font-size: 1500%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#wicked{
+	font-size: 1500%;
+	}
+}
+
+@media (min-width: 1201px) {
+	#wicked{
+	font-size: 1500%;
+	}
+}
+
+@media (min-width: 2560px) {
+	#wicked{
+	font-size: 1500%;
+	}
+}
+
+.socialsbox{
+	animation: 1.5s ease 0s MoveSocials;
+}
+
+@keyframes MoveSocials {
+    0%{
+	bottom: -1500%;
+	}
+	90%{
+	bottom: 1%;
+	}
+	100%{
+	bottom: 0%;
+	}
+</style>
+<body>
+<div class="wickedbox">
+	<p ondblclick="redirectToSecondaryLink()" id="wicked"> </p>
+</div>
+
+<div class="socialsbox">
+	<div class="centeredbgb">
+	<a href="https://discord.com/channels/@me" target="_blank">
+		<img class="socialsimg" src="discord.png"></img>
+		<p class="SocialTexts"> 84G </p>
+	</a>
+	</div>
+	
+	<div class="centeredbgb">
+	<a href="https://steamcommunity.com/id/8RA/" target="_blank">
+		<img class="socialsimg" src="steam.png"></img>
+		<p class="SocialTexts"> 8RA </p>
+	</a>
+	</div>
+
+</div>
+</body>
+
+<script>
+function redirectToSecondaryLink() {
+  window.location.href = "https://webmail.whoeven.ru";
+}
+</script>
+	
+<script>
+const myList = ["wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "wicked.", "who are you?", "i hate you.", "i love you."];
+
+randomizeFunction()
+
+function randomizeFunction() {
+    document.getElementById("wicked").innerHTML = myList[Math.floor(Math.random() * myList.length)]
+}
+</script>
+
+<script src="noinspect.js"></script>
+</html>
